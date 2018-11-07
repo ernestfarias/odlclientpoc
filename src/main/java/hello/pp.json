@@ -1,0 +1,240 @@
+{
+  "opendaylight-inventory:flow": [
+    {
+      "opendaylight-inventory:flow-node-inventory:id": "Some id",
+      "opendaylight-inventory:flow-node-inventory:match": {
+        "opendaylight-inventory:flow-node-inventory:in-port": "Some in-port",
+        "opendaylight-inventory:flow-node-inventory:in-phy-port": "Some in-phy-port",
+        "opendaylight-inventory:flow-node-inventory:metadata": {
+          "opendaylight-inventory:flow-node-inventory:metadata": "0",
+          "opendaylight-inventory:flow-node-inventory:metadata-mask": "0"
+        },
+        "opendaylight-inventory:flow-node-inventory:tunnel": {
+          "opendaylight-inventory:flow-node-inventory:tunnel-id": "0",
+          "opendaylight-inventory:flow-node-inventory:tunnel-mask": "0"
+        },
+        "opendaylight-inventory:flow-node-inventory:ethernet-match": {
+          "opendaylight-inventory:flow-node-inventory:ethernet-source": {
+            "opendaylight-inventory:flow-node-inventory:address": "DF:B2:7f:a1:DC:6b",
+            "opendaylight-inventory:flow-node-inventory:mask": "fD:58:DE:f9:B7:bA"
+          },
+          "opendaylight-inventory:flow-node-inventory:ethernet-destination": {
+            "opendaylight-inventory:flow-node-inventory:address": "4c:B6:Da:FE:06:1d",
+            "opendaylight-inventory:flow-node-inventory:mask": "fB:F7:EF:ff:C9:76"
+          },
+          "opendaylight-inventory:flow-node-inventory:ethernet-type": {
+            "opendaylight-inventory:flow-node-inventory:type": "0"
+          }
+        },
+        "opendaylight-inventory:flow-node-inventory:vlan-match": {
+          "opendaylight-inventory:flow-node-inventory:vlan-id": {
+            "opendaylight-inventory:flow-node-inventory:vlan-id-present": "true",
+            "opendaylight-inventory:flow-node-inventory:vlan-id": "0"
+          },
+          "opendaylight-inventory:flow-node-inventory:vlan-pcp": "0"
+        },
+        "opendaylight-inventory:flow-node-inventory:ip-match": {
+          "opendaylight-inventory:flow-node-inventory:ip-protocol": "0",
+          "opendaylight-inventory:flow-node-inventory:ip-dscp": "0",
+          "opendaylight-inventory:flow-node-inventory:ip-ecn": "0",
+          "opendaylight-inventory:flow-node-inventory:ip-proto": "unknown"
+        },
+        "flow-node-inventory:arp-op": "0",
+        "flow-node-inventory:arp-source-transport-address": "2.17.7.25/22",
+        "flow-node-inventory:arp-target-transport-address": "2.1.0.0/8",
+        "flow-node-inventory:arp-source-hardware-address": {
+          "opendaylight-inventory:flow-node-inventory:address": "AC:F1:c6:Bd:8A:Ac",
+          "opendaylight-inventory:flow-node-inventory:mask": "36:ee:65:ca:dd:5C"
+        },
+        "flow-node-inventory:arp-target-hardware-address": {
+          "opendaylight-inventory:flow-node-inventory:address": "Da:Ee:B3:dD:Ae:e1",
+          "opendaylight-inventory:flow-node-inventory:mask": "Ee:Ce:aF:CC:3F:Ca"
+        },
+        "flow-node-inventory:sctp-source-port": "0",
+        "flow-node-inventory:sctp-destination-port": "0",
+        "opendaylight-inventory:flow-node-inventory:icmpv4-match": {
+          "opendaylight-inventory:flow-node-inventory:icmpv4-type": "0",
+          "opendaylight-inventory:flow-node-inventory:icmpv4-code": "0"
+        },
+        "opendaylight-inventory:flow-node-inventory:icmpv6-match": {
+          "opendaylight-inventory:flow-node-inventory:icmpv6-type": "0",
+          "opendaylight-inventory:flow-node-inventory:icmpv6-code": "0"
+        },
+        "opendaylight-inventory:flow-node-inventory:protocol-match-fields": {
+          "opendaylight-inventory:flow-node-inventory:mpls-label": "0",
+          "opendaylight-inventory:flow-node-inventory:mpls-tc": "0",
+          "opendaylight-inventory:flow-node-inventory:mpls-bos": "0",
+          "opendaylight-inventory:flow-node-inventory:pbb": {
+            "opendaylight-inventory:flow-node-inventory:pbb-isid": "0",
+            "opendaylight-inventory:flow-node-inventory:pbb-mask": "0"
+          }
+        },
+        "opendaylight-inventory:flow-node-inventory:tcp-flags-match": {
+          "opendaylight-inventory:flow-node-inventory:tcp-flags": "0",
+          "opendaylight-inventory:flow-node-inventory:tcp-flags-mask": "0"
+        },
+        "opendaylight-inventory:openflowplugin-extension-general:extension-list": [
+          {
+            "opendaylight-inventory:openflowplugin-extension-general:extension-key": "opendaylight-inventory:extension-key",
+            "opendaylight-inventory:openflowplugin-extension-general:extension": {
+              "opendaylight-inventory:openflowplugin-extension-general:dos-ekis": "Some dos-ekis",
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-of-eth-type": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-tun-gpe-np": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-nshc-3": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-nshc-1": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-nsp": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-ct-zone": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:ct-zone": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-of-icmp-type": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-reg": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:reg": "opendaylight-inventory:nxm-nx-reg",
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0",
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:mask": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-nsi": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:nsi": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-nshc-4": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-ct-mark": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:ct-mark": "0",
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:mask": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-nsh-np": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-of-arp-op": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-ct-state": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:ct-state": "0",
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:mask": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-encap-eth-type": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-nsh-mdtype": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-nshc-2": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:of-in-port": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-tun-id": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:value": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-of-udp-src": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:port": "0",
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:mask": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-of-tcp-dst": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:port": "0",
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:mask": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-of-tcp-src": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:port": "0",
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:mask": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-of-udp-dst": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:port": "0",
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:mask": "0"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-arp-sha": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:mac-address": "a2:7B:cb:bA:9F:db"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-of-arp-spa": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:ipv4-address": "18.1.81.24%p"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-tun-ipv4-dst": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:ipv4-address": "0.0.0.2"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-tun-ipv4-src": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:ipv4-address": "63.6.0.211%p{"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-arp-tha": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:mac-address": "af:92:F0:fe:99:A3"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-encap-eth-dst": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:mac-address": "BF:20:fb:F1:AA:4C"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-of-arp-tpa": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:ipv4-address": "0.27.75.22"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-of-eth-src": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:mac-address": "CC:5b:F2:41:3C:8f"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-of-eth-dst": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:mac-address": "F3:1F:Ca:54:76:B7"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-nx-encap-eth-src": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:mac-address": "83:bB:AB:dC:4c:b7"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-of-ip-dst": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:ipv4-address": "0.0.176.2"
+              },
+              "opendaylight-inventory:openflowplugin-extension-nicira-match:nxm-of-ip-src": {
+                "opendaylight-inventory:openflowplugin-extension-nicira-match:ipv4-address": "3.23.0.7%pNL}N"
+              }
+            }
+          }
+        ]
+      },
+      "opendaylight-inventory:flow-node-inventory:instructions": {
+        "opendaylight-inventory:flow-node-inventory:instruction": [
+          {
+            "opendaylight-inventory:flow-node-inventory:order": "-2147483648",
+            "flow-node-inventory:apply-actions": {
+              "opendaylight-inventory:flow-node-inventory:action": [
+                {
+                  "opendaylight-inventory:flow-node-inventory:order": "-2147483648",
+                  "flow-node-inventory:controller-action": {
+                    "opendaylight-inventory:flow-node-inventory:max-length": "0"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "opendaylight-inventory:flow-node-inventory:container-name": "Some container-name",
+      "opendaylight-inventory:flow-node-inventory:cookie_mask": "0",
+      "opendaylight-inventory:flow-node-inventory:buffer_id": "0",
+      "opendaylight-inventory:flow-node-inventory:out_port": "0",
+      "opendaylight-inventory:flow-node-inventory:out_group": "0",
+      "opendaylight-inventory:flow-node-inventory:flags": "\"CHECK_OVERLAP\" \"SEND_FLOW_REM\"",
+      "opendaylight-inventory:flow-node-inventory:flow-name": "Some flow-name",
+      "opendaylight-inventory:flow-node-inventory:installHw": "true",
+      "opendaylight-inventory:flow-node-inventory:barrier": "true",
+      "opendaylight-inventory:flow-node-inventory:strict": "false",
+      "opendaylight-inventory:flow-node-inventory:priority": "0",
+      "opendaylight-inventory:flow-node-inventory:idle-timeout": "0",
+      "opendaylight-inventory:flow-node-inventory:hard-timeout": "0",
+      "opendaylight-inventory:flow-node-inventory:cookie": "0",
+      "opendaylight-inventory:flow-node-inventory:table_id": "0",
+      "opendaylight-inventory:opendaylight-flow-statistics:flow-statistics": {
+        "opendaylight-inventory:opendaylight-flow-statistics:packet-count": "0",
+        "opendaylight-inventory:opendaylight-flow-statistics:byte-count": "0",
+        "opendaylight-inventory:opendaylight-flow-statistics:duration": {
+          "opendaylight-inventory:opendaylight-flow-statistics:second": "0",
+          "opendaylight-inventory:opendaylight-flow-statistics:nanosecond": "0"
+        }
+      }
+    }
+  ]
+}
